@@ -359,6 +359,6 @@ let _targets: [Target] = targets.map { $0.toTarget() }
 let package = Package(
   name: "swift-collections",
   products: _products,
-  traits: [], //_traits,
+  traits: _traits,
   targets: _targets
 )
